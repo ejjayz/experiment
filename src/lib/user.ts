@@ -5,8 +5,8 @@ export function getUserDataSelect(loggedInUserId: string) {
     displayName: true,
     avatarUrl: true,
     bio: true,
-    isVerified: true,
-    createdAt: true, // Include this line to select createdAt
+    isVerified: true, // Ensure this line is present
+    createdAt: true,  // Ensure this line is also present
     _count: {
       select: {
         posts: true,
